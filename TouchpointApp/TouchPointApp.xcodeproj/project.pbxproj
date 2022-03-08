@@ -16,7 +16,7 @@
 		1BCE87D724C1DD1700607A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCE87D624C1DD1700607A33 /* Assets.xcassets */; };
 		1BCE87DA24C1DD1700607A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCE87D824C1DD1700607A33 /* LaunchScreen.storyboard */; };
 		1BCE87E524C1DD1700607A33 /* TouchPointAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE87E424C1DD1700607A33 /* TouchPointAppTests.swift */; };
-		1E5E5D0327B709B800C9E4BA /* TouchPointKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1E5E5D0227B709B800C9E4BA /* TouchPointKit */; };
+		1E1F1B9327D7B28E0006E5C8 /* TouchPointKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1E1F1B9227D7B28E0006E5C8 /* TouchPointKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E5E5D0327B709B800C9E4BA /* TouchPointKit in Frameworks */,
+				1E1F1B9327D7B28E0006E5C8 /* TouchPointKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 			);
 			name = TouchPointApp;
 			packageProductDependencies = (
-				1E5E5D0227B709B800C9E4BA /* TouchPointKit */,
+				1E1F1B9227D7B28E0006E5C8 /* TouchPointKit */,
 			);
 			productName = TouchPointApp;
 			productReference = 1BCE87CA24C1DD1400607A33 /* TouchPointApp.app */;
@@ -187,7 +187,7 @@
 			);
 			mainGroup = 1BCE87C124C1DD1400607A33;
 			packageReferences = (
-				1E5E5D0127B709B800C9E4BA /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */,
+				1E1F1B9127D7B28E0006E5C8 /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */,
 			);
 			productRefGroup = 1BCE87CB24C1DD1400607A33 /* Products */;
 			projectDirPath = "";
@@ -513,20 +513,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1E5E5D0127B709B800C9E4BA /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */ = {
+		1E1F1B9127D7B28E0006E5C8 /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/chad-vc/touchpoint-kit-ios";
+			repositoryURL = "https://github.com/vcilabs/touchpoint-kit-ios";
 			requirement = {
-				kind = exactVersion;
-				version = 0.1.7;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.8;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1E5E5D0227B709B800C9E4BA /* TouchPointKit */ = {
+		1E1F1B9227D7B28E0006E5C8 /* TouchPointKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1E5E5D0127B709B800C9E4BA /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */;
+			package = 1E1F1B9127D7B28E0006E5C8 /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */;
 			productName = TouchPointKit;
 		};
 /* End XCSwiftPackageProductDependency section */

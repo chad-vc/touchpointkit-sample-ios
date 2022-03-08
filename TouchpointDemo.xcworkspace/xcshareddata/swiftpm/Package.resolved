@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "TouchPointKit",
-        "repositoryURL": "https://github.com/chad-vc/touchpoint-kit-ios",
+        "repositoryURL": "https://github.com/vcilabs/touchpoint-kit-ios",
         "state": {
           "branch": null,
-          "revision": "dc2544f6b88b5f3f16af21236e04ea2c4583c535",
-          "version": "0.1.7"
+          "revision": "7431f03fb5a65329e3341d29a22b7bff554b7079",
+          "version": "0.1.8"
         }
       }
     ]
