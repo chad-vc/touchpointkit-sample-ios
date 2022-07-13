@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "img7.jpeg",
+      "filename" : "Alida_Symbol_Beige_RGB-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Alida_Symbol_Beige_RGB-01@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Alida_Symbol_Beige_RGB-01@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

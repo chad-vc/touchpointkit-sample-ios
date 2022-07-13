@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B7F468A24CEE0700018D671 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F468924CEE0700018D671 /* MainViewController.swift */; };
-		1B7F468C24CEE0830018D671 /* Demo1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F468B24CEE0830018D671 /* Demo1ViewController.swift */; };
-		1BC6CA5C24ED6E2700874871 /* Demo5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC6CA5B24ED6E2700874871 /* Demo5ViewController.swift */; };
-		1BC6CA5E24ED72DD00874871 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC6CA5D24ED72DD00874871 /* CustomTableViewCell.swift */; };
-		1BCE87CE24C1DD1400607A33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE87CD24C1DD1400607A33 /* AppDelegate.swift */; };
 		1BCE87D524C1DD1400607A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCE87D324C1DD1400607A33 /* Main.storyboard */; };
 		1BCE87D724C1DD1700607A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCE87D624C1DD1700607A33 /* Assets.xcassets */; };
 		1BCE87DA24C1DD1700607A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCE87D824C1DD1700607A33 /* LaunchScreen.storyboard */; };
 		1BCE87E524C1DD1700607A33 /* TouchPointAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE87E424C1DD1700607A33 /* TouchPointAppTests.swift */; };
+		8405F4CC287F6A360052735F /* CustomControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405F4C7287F6A360052735F /* CustomControllerViewController.swift */; };
+		8405F4CD287F6A360052735F /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405F4C8287F6A360052735F /* BannerViewController.swift */; };
+		8405F4CE287F6A360052735F /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405F4C9287F6A360052735F /* PopupViewController.swift */; };
+		8405F4CF287F6A360052735F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405F4CA287F6A360052735F /* AppDelegate.swift */; };
+		8405F4D0287F6A360052735F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405F4CB287F6A360052735F /* MainViewController.swift */; };
+		840EC25B287F81FE0040232E /* TouchPointKit in Frameworks */ = {isa = PBXBuildFile; productRef = 840EC25A287F81FE0040232E /* TouchPointKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,12 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B7F468924CEE0700018D671 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		1B7F468B24CEE0830018D671 /* Demo1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1ViewController.swift; sourceTree = "<group>"; };
-		1BC6CA5B24ED6E2700874871 /* Demo5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo5ViewController.swift; sourceTree = "<group>"; };
-		1BC6CA5D24ED72DD00874871 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		1BCE87CA24C1DD1400607A33 /* TouchPointApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPointApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BCE87CD24C1DD1400607A33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCE87D424C1DD1400607A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BCE87D624C1DD1700607A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCE87D924C1DD1700607A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +39,11 @@
 		1BCE87E424C1DD1700607A33 /* TouchPointAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchPointAppTests.swift; sourceTree = "<group>"; };
 		1BCE87E624C1DD1700607A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BCE885724C1DE1600607A33 /* TouchPointKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TouchPointKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8405F4C7287F6A360052735F /* CustomControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomControllerViewController.swift; sourceTree = "<group>"; };
+		8405F4C8287F6A360052735F /* BannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		8405F4C9287F6A360052735F /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		8405F4CA287F6A360052735F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8405F4CB287F6A360052735F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840EC25B287F81FE0040232E /* TouchPointKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,11 +87,11 @@
 		1BCE87CC24C1DD1400607A33 /* TouchPointApp */ = {
 			isa = PBXGroup;
 			children = (
-				1BCE87CD24C1DD1400607A33 /* AppDelegate.swift */,
-				1B7F468924CEE0700018D671 /* MainViewController.swift */,
-				1B7F468B24CEE0830018D671 /* Demo1ViewController.swift */,
-				1BC6CA5B24ED6E2700874871 /* Demo5ViewController.swift */,
-				1BC6CA5D24ED72DD00874871 /* CustomTableViewCell.swift */,
+				8405F4CA287F6A360052735F /* AppDelegate.swift */,
+				8405F4C8287F6A360052735F /* BannerViewController.swift */,
+				8405F4C7287F6A360052735F /* CustomControllerViewController.swift */,
+				8405F4CB287F6A360052735F /* MainViewController.swift */,
+				8405F4C9287F6A360052735F /* PopupViewController.swift */,
 				1BCE87D324C1DD1400607A33 /* Main.storyboard */,
 				1BCE87D624C1DD1700607A33 /* Assets.xcassets */,
 				1BCE87D824C1DD1700607A33 /* LaunchScreen.storyboard */,
@@ -132,6 +134,7 @@
 			);
 			name = TouchPointApp;
 			packageProductDependencies = (
+				840EC25A287F81FE0040232E /* TouchPointKit */,
 			);
 			productName = TouchPointApp;
 			productReference = 1BCE87CA24C1DD1400607A33 /* TouchPointApp.app */;
@@ -167,6 +170,7 @@
 				TargetAttributes = {
 					1BCE87C924C1DD1400607A33 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1340;
 					};
 					1BCE87DF24C1DD1700607A33 = {
 						CreatedOnToolsVersion = 11.5;
@@ -184,7 +188,7 @@
 			);
 			mainGroup = 1BCE87C124C1DD1400607A33;
 			packageReferences = (
-				1E1F1B9127D7B28E0006E5C8 /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */,
+				840EC259287F81FE0040232E /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */,
 			);
 			productRefGroup = 1BCE87CB24C1DD1400607A33 /* Products */;
 			projectDirPath = "";
@@ -221,11 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCE87CE24C1DD1400607A33 /* AppDelegate.swift in Sources */,
-				1BC6CA5E24ED72DD00874871 /* CustomTableViewCell.swift in Sources */,
-				1BC6CA5C24ED6E2700874871 /* Demo5ViewController.swift in Sources */,
-				1B7F468C24CEE0830018D671 /* Demo1ViewController.swift in Sources */,
-				1B7F468A24CEE0700018D671 /* MainViewController.swift in Sources */,
+				8405F4CF287F6A360052735F /* AppDelegate.swift in Sources */,
+				8405F4CD287F6A360052735F /* BannerViewController.swift in Sources */,
+				8405F4CC287F6A360052735F /* CustomControllerViewController.swift in Sources */,
+				8405F4CE287F6A360052735F /* PopupViewController.swift in Sources */,
+				8405F4D0287F6A360052735F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5X64YPWX4C;
@@ -399,6 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.visioncritical.TouchPointApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -408,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5X64YPWX4C;
@@ -510,15 +517,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1E1F1B9127D7B28E0006E5C8 /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */ = {
+		840EC259287F81FE0040232E /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/vcilabs/touchpoint-kit-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.8;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		840EC25A287F81FE0040232E /* TouchPointKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 840EC259287F81FE0040232E /* XCRemoteSwiftPackageReference "touchpoint-kit-ios" */;
+			productName = TouchPointKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1BCE87C224C1DD1400607A33 /* Project object */;
 }

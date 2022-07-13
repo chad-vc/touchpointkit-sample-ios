@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "img1.jpeg",
+      "filename" : "Alida_Horz_Red_RGB.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Alida_Horz_Red_RGB@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Alida_Horz_Red_RGB@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

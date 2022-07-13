@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "TouchPointKit",
-        "repositoryURL": "https://github.com/vcilabs/touchpoint-kit-ios",
-        "state": {
-          "branch": null,
-          "revision": "7431f03fb5a65329e3341d29a22b7bff554b7079",
-          "version": "0.1.8"
-        }
+  "pins" : [
+    {
+      "identity" : "touchpoint-kit-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vcilabs/touchpoint-kit-ios",
+      "state" : {
+        "revision" : "c2c9007bf54d16bc2616d30029d72d4e1a5f9b63",
+        "version" : "1.0.0"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }
