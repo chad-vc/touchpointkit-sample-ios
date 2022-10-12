@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import TouchPointKit
 
-class CustomComponentViewController: UIViewController, TouchPointActivityCompletionDelegate {
+class CustomComponentViewController: UIViewController, TouchPointActivityDelegate {
     @IBOutlet var button1: UIButton!
     @IBOutlet var button2: UIButton!
     @IBOutlet var button3: UIButton!
@@ -20,8 +20,13 @@ class CustomComponentViewController: UIViewController, TouchPointActivityComplet
         super.viewDidLoad()
     }
     
-    func onActivityComplete() {
-        // Nothing to do
+    func onTouchPointActivityComplete() {
+        let activityCompleteAlert: UIAlertView = UIAlertView(title: "Thanks for completing the activity!", message: "We really appreciate your feedback",
+                             delegate: self, cancelButtonTitle: "OK")
+        activityCompleteAlert.show()
+    }
+    
+    func onTouchPointActivityCollapse() {
         curSelectedButton?.isEnabled = false
     }
     
