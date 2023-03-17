@@ -20,6 +20,12 @@ class CustomComponentViewController: UIViewController, TouchPointActivityDelegat
         super.viewDidLoad()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        TouchPointActivity.shared.refreshActivities()
+    }
+    
     func onTouchPointActivityComplete() {
         let activityCompleteAlert: UIAlertView = UIAlertView(title: "Thanks for completing the activity!", message: "We really appreciate your feedback",
                              delegate: self, cancelButtonTitle: "OK")
