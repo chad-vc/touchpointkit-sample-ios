@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let apiKey = "API_KEY"
         let apiSecret = "API_SECRET"
         let podName = TouchPointPods.eu2
+        let locale = "FR"
         let screenComponents = [
             [ "screenName": "Banner Screen" ],
             [ "screenName": "Popup Screen"],
@@ -69,6 +70,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         TouchPointActivity.shared.configure(apiKey: apiKey,
                                             apiSecret: apiSecret,
                                             podName: podName,
+                                            // Uncomment this to see it in French
+                                            // locale: locale,
                                             screenComponents: screenComponents,
                                             visitor: visitor)
         

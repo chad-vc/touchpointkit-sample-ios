@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vcilabs/touchpoint-kit-ios",
       "state" : {
-        "revision" : "34f120075f03615644fe3f3455e920ab67ca1b11",
-        "version" : "1.0.3"
+        "revision" : "2fe58b8cfbbcc5e95238b7fd7e07a01977d71f40",
+        "version" : "1.0.4"
       }
     }
   ],
